@@ -1,0 +1,80 @@
+form{
+    width: 75%;
+    height: auto;
+    margin: auto;
+    margin-top: 2%;
+    padding: 1% 0%;
+    background: rgba(255, 245, 245, 0.53);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+  }
+
+  select,input{
+    color: #201b2c;
+    font-size: 1.155vw;
+    margin-left: 3%;
+    width: 25%; 
+    border: 1px solid #0B661A;
+    outline: 0;
+    background: #f1f8fc;
+    padding: 5px 5px;
+    border-radius: 8px;
+  }
+.size4{
+  width: 18%;
+}
+.size2{
+  width: 40%;
+}
+.size1{
+  width: 80%;
+}
+
+
+
+button[type=submit]{
+    width: 10%;
+    margin-left: 2%;
+    border:0;
+    background: #0B661A;
+    color: white;
+    font-size: 1.155vw;
+    padding: 5px 5px;
+    border-radius: 8px;
+    border: 0.5px solid white;
+        
+        }
+  .addano{
+  
+    color: #0B661A;
+  text-decoration:underline;
+  font-style: italic;
+  font-size: 16px;
+  }
+input[type=submit]:hover{
+    background: #0f9e27;
+    color: #f1f8fc;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color .5s;
+    border: 0.5px solid #0f9e27;
+}
+@media (max-width:768px){
+  h1,h4{
+    font-size: 2.5vw;}
+  select, input{
+    font-size: 2.5vw;
+  }
+  input[type=submit] {
+    margin-top: 15px;
+    width: 20%;
+    font-size: 2.5vw;
+  }
+  
+}

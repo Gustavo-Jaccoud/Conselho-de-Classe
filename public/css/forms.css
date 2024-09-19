@@ -1,0 +1,129 @@
+
+.error{
+  margin-left: 15%;
+  font-size: small;
+  color: red;
+}
+form{
+    width: 75%;
+    height: auto;
+    margin: auto;
+    margin-top: 4%;
+    padding: 2% 0%;
+    background: rgba(255, 245, 245, 0.53);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    
+    font-family: 'sans-serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+  }
+  select,input{
+    color: #201b2c;
+    font-size: 1.155vw;
+    margin-top: 2%;
+    margin-left: 15%;
+    width: 70%; 
+    border: 1px solid #0B661A;
+    outline: 0;
+    background: #f1f8fc;
+    padding: 15px 15px;
+    border-radius: 8px;
+  }
+  
+
+  h1{
+    font-size: 2vw;
+    text-align: center;
+    color:#0B661A;
+}
+  h3{ 
+    color:#0B661A;
+    font-size:1.5vw;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    
+}
+  h4{ 
+
+    color:#0B661A;
+    font-size:1.5vw;
+    margin-left: 15%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    
+}
+
+.forms h4{
+    width: 75%;
+}
+  .margem{
+    margin-left: 15%;
+  }
+
+  input[type="radio"] {
+    display: none;
+  }
+
+
+  
+  /* Estilo para as labels (rótulos) dos radio buttons */
+  label {
+    display: inline-block;
+    text-align: center;
+    margin-right: 2%;
+    width: 12.4%;
+    padding: 5px 10px;
+    font-size: 1vw;
+    border: 1px solid #0B661A;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Estilo quando o rótulo do radio button é selecionado */
+  input[type="radio"]:checked + label {
+    background-color: #0f9e27;
+    color: #f1f8fc;
+    border-color: #0B661A;
+  }
+
+input[type=submit] {
+    margin-top: 20px;
+    width: 130px;
+    border:0;
+    outline: 0;
+    background: #0B661A;
+    color: white;
+    display: block;
+    font-size: 1.2em;
+    padding: 15px 15px;
+    border-radius: 8px;
+    border: 0.5px solid white;
+    margin-left:15%
+        
+        }
+input[type=submit]:hover{
+    background: #0f9e27;
+    color: #f1f8fc;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color .5s;
+    border: 0.5px solid #0f9e27;
+}
+@media (max-width:768px){
+  h1,h4{
+    font-size: 2.5vw;}
+  select, input{
+    font-size: 2.5vw;
+  }
+  input[type=submit] {
+    margin-top: 15px;
+    width: 20%;
+    font-size: 2.5vw;
+  }
+  
+}

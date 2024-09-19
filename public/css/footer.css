@@ -1,0 +1,105 @@
+footer {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: #0B661A;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+footer p {
+    padding-top: 1.82%;
+    padding-bottom: 1.82%;
+    font-family: 'sans-serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    color: #f1f8fc;
+    width: 100%;
+}
+footer p span{
+    color: #36c004;
+    font-weight: 300;
+}
+
+/* 991 PX */
+@media screen and (max-width: 991px){
+    footer p{
+        padding-right: 12%;
+        padding-left: 19%;
+    }
+}
+
+/* 855 PX */
+@media screen and (max-width: 855px){
+    footer p{
+        padding-right: 9%;
+        padding-left: 15%;
+    }
+}
+
+/* 776 PX */
+@media screen and (max-width: 776px){
+    footer p{
+        padding-right: 8%;
+        padding-left: 14%;
+
+        font-size: .95em;
+    }
+}
+
+/* 638 PX */
+@media screen and (max-width: 638px){
+    footer p{
+        padding-right: 6%;
+        padding-left: 11%;
+
+        font-size: .9em;
+    }
+}
+
+/* 568 PX */
+@media screen and (max-width: 568px){
+    footer p{
+        padding-right: 5%;
+        padding-left: 9%;
+
+        font-size: .8em;
+    }
+}
+
+/* 487 PX */
+@media screen and (max-width: 487px){
+    footer p{
+        padding-right: 4%;
+        padding-left: 9%;
+
+        font-size: .7em;
+    }
+}
+
+/* 425 PX */
+@media screen and (max-width: 425px){
+    footer p{
+        padding-right: 4%;
+        padding-left: 10%;
+    }
+}
+
+/* 310 PX */
+@media screen and (max-width: 310px){
+    footer{
+        margin-top: 5%;
+    }
+
+    footer p{
+        padding-right: 5%;
+        padding-left: 9%;
+
+        font-weight: 500;
+        line-height: 15px;
+    }
+}

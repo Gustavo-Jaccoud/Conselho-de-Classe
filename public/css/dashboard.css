@@ -1,0 +1,49 @@
+h1{
+    font-size: 2vw;
+    text-align: center;
+    color:#0B661A;
+}
+.Dashboard{
+        width: 75%;
+        height: auto;
+        margin: auto;
+        padding: 0.5%;
+        margin-top: 1%;
+        background: rgb(255, 255, 255);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+}
+.Dashboard li {
+    margin: 10px;
+    width: calc(33.33% - 40px);
+    text-align: center;
+}
+.Dashboard img{
+    margin: auto;
+    padding-top: 30px;
+    width: 60%;
+    display: block;
+    
+}
+
+.Dashboard a {
+    text-decoration: none;
+    color: #f1f8fc;
+    display: block;
+    padding: 20px;
+    height: 100%;
+    border: 1px solid #0B661A;
+    border-radius: 10px;
+    background-color: #0B661A;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.Dashboard a:hover {
+    background-color: #00440d;
+    color: #f1f8fc;
+}

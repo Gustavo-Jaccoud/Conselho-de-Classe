@@ -1,0 +1,85 @@
+
+    h1{
+        font-size: 2vw;
+        text-align: center;
+        color:#0B661A;
+    }
+    table {
+        width: 75%;
+        height: auto;
+        margin: auto;
+        padding: 0.5%;
+        margin-top: 1%;
+        background: rgb(255, 255, 255);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    th, td {
+        border: 1px solid #0B661A;
+        padding: 8px;
+        text-align: left;
+    }
+
+    th {
+        color: #f1f8fc;
+        background-color: #0B661A;
+    }
+
+    tr:hover {
+        background-color: #f1f8fc;
+    }
+    .media-section{
+        display: flex;
+        margin-left: 72.5%;
+        width: 15%;
+        height: auto;
+        margin-top: 1%;
+        padding: 1% 1%;
+        background: rgba(255, 245, 245, 0.53);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        color: #0B661A;
+    }
+
+    .media-section a, add{
+        margin-right: 10px;
+    }
+    .options-section{
+        margin-left: 12.5%;
+        max-width: 5%;
+        height: auto;
+        margin-top: 1%;
+        padding: 0.5% 0.5%;
+        background: rgba(255, 245, 245, 0.53);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        font-family: 'Roboto';
+        font-style: normal;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        color: #0B661A;
+    }
+    .option-section{
+        margin-left: 12.5%;
+        max-width: 10%;
+        height: auto;
+        margin-top: 1%;
+        padding: 0.5% 0.5%;
+        background: rgba(255, 245, 245, 0.53);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        font-family: 'Roboto';
+        font-style: normal;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        color: #0B661A;
+    }
